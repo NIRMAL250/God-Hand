@@ -23,12 +23,7 @@ import MDAvatar from "components/MDAvatar";
 import MDProgress from "components/MDProgress";
 
 // Images
-import logoXD from "assets/images/small-logos/logo-xd.svg";
-import logoAtlassian from "assets/images/small-logos/logo-atlassian.svg";
-import logoSlack from "assets/images/small-logos/logo-slack.svg";
-import logoSpotify from "assets/images/small-logos/logo-spotify.svg";
-import logoJira from "assets/images/small-logos/logo-jira.svg";
-import logoInvesion from "assets/images/small-logos/logo-invision.svg";
+import logoXD from "assets/images/small-logos/download.png";
 import team1 from "assets/images/team-1.jpg";
 import team2 from "assets/images/team-2.jpg";
 import team3 from "assets/images/team-3.jpg";
@@ -71,15 +66,17 @@ export default function data() {
 
   return {
     columns: [
-      { Header: "companies", accessor: "companies", width: "45%", align: "left" },
-      { Header: "members", accessor: "members", width: "10%", align: "left" },
+      { Header: "Cases", accessor: "companies", width: "45%", align: "left" },
+      { Header: "donors", accessor: "members", width: "10%", align: "left" },
       { Header: "budget", accessor: "budget", align: "center" },
       { Header: "completion", accessor: "completion", align: "center" },
     ],
 
     rows: [
       {
-        companies: <Company image={logoXD} name="Material UI XD Version" />,
+        companies: (
+          <Company image={logoXD} name="Urgent help needed for my son's accident treatment" />
+        ),
         members: (
           <MDBox display="flex" py={1}>
             {avatars([
@@ -102,7 +99,7 @@ export default function data() {
         ),
       },
       {
-        companies: <Company image={logoAtlassian} name="Add Progress Track" />,
+        companies: <Company image={logoXD} name="Please save my son's life" />,
         members: (
           <MDBox display="flex" py={1}>
             {avatars([
@@ -123,7 +120,7 @@ export default function data() {
         ),
       },
       {
-        companies: <Company image={logoSlack} name="Fix Platform Errors" />,
+        companies: <Company image={logoXD} name="Save our families only bread winner" />,
         members: (
           <MDBox display="flex" py={1}>
             {avatars([
@@ -134,7 +131,7 @@ export default function data() {
         ),
         budget: (
           <MDTypography variant="caption" color="text" fontWeight="medium">
-            Not set
+            ₹ 50,00,000
           </MDTypography>
         ),
         completion: (
@@ -144,7 +141,7 @@ export default function data() {
         ),
       },
       {
-        companies: <Company image={logoSpotify} name="Launch our Mobile App" />,
+        companies: <Company image={logoXD} name="Save wildlife" />,
         members: (
           <MDBox display="flex" py={1}>
             {avatars([
@@ -167,7 +164,7 @@ export default function data() {
         ),
       },
       {
-        companies: <Company image={logoJira} name="Add the New Pricing Page" />,
+        companies: <Company image={logoXD} name="Help us, save abondened animals" />,
         members: (
           <MDBox display="flex" py={1}>
             {avatars([[team4, "Jessica Doe"]])}
@@ -185,7 +182,9 @@ export default function data() {
         ),
       },
       {
-        companies: <Company image={logoInvesion} name="Redesign New Online Shop" />,
+        companies: (
+          <Company image={logoXD} name="Please help for our father's kidney transplant treatment" />
+        ),
         members: (
           <MDBox display="flex" py={1}>
             {avatars([

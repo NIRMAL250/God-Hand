@@ -83,7 +83,7 @@ function PlatformSettings() {
           </MDBox>
           <MDBox width="80%" ml={0.5}>
             <MDTypography variant="button" fontWeight="regular" color="text">
-              New launches and projects
+              New Cases
             </MDTypography>
           </MDBox>
         </MDBox>
@@ -93,7 +93,7 @@ function PlatformSettings() {
           </MDBox>
           <MDBox width="80%" ml={0.5}>
             <MDTypography variant="button" fontWeight="regular" color="text">
-              Monthly product updates
+              severe Cases
             </MDTypography>
           </MDBox>
         </MDBox>
@@ -103,7 +103,7 @@ function PlatformSettings() {
           </MDBox>
           <MDBox width="80%" ml={0.5}>
             <MDTypography variant="button" fontWeight="regular" color="text">
-              Subscribe to newsletter
+              Donation Recieved
             </MDTypography>
           </MDBox>
         </MDBox>

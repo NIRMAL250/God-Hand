@@ -42,7 +42,7 @@ function Dashboard() {
               <ComplexStatisticsCard
                 color="dark"
                 icon="weekend"
-                title="Bookings"
+                title="Serious"
                 count={281}
                 percentage={{
                   color: "success",
@@ -56,7 +56,7 @@ function Dashboard() {
             <MDBox mb={1.5}>
               <ComplexStatisticsCard
                 icon="leaderboard"
-                title="Today's Users"
+                title="Today's Cases"
                 count="2,300"
                 percentage={{
                   color: "success",
@@ -71,7 +71,7 @@ function Dashboard() {
               <ComplexStatisticsCard
                 color="success"
                 icon="store"
-                title="Revenue"
+                title="Total Donors"
                 count="34k"
                 percentage={{
                   color: "success",
@@ -103,8 +103,8 @@ function Dashboard() {
               <MDBox mb={3}>
                 <ReportsBarChart
                   color="info"
-                  title="website views"
-                  description="Last Campaign Performance"
+                  title="My baby is struggling for his life"
+                  description="My baby is suffering from a rare disease. He need to be treated within 15 days for saving his life. We done everything what we can do. Now we are helpless."
                   date="campaign sent 2 days ago"
                 />
               </MDBox>
@@ -113,12 +113,8 @@ function Dashboard() {
               <MDBox mb={3}>
                 <ReportsLineChart
                   color="success"
-                  title="daily sales"
-                  description={
-                    <>
-                      (<strong>+15%</strong>) increase in today sales.
-                    </>
-                  }
+                  title="Urgent surgery needed please help"
+                  description="My father met with an accident, brain surgery need to be done within 24 hrs. He is the only bread winner for our family."
                   date="updated 4 min ago"
                 />
               </MDBox>
@@ -127,8 +123,8 @@ function Dashboard() {
               <MDBox mb={3}>
                 <ReportsLineChart
                   color="dark"
-                  title="completed tasks"
-                  description="Last Campaign Performance"
+                  title="My mother is in life support we need your help"
+                  description="My mother is suffering from lung cancer, her condition is serious. Surgery need to be done immediately. And the cost of life support is high that we can't afford."
                   date="just updated"
                 />
               </MDBox>

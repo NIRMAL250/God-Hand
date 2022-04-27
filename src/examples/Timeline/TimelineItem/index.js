@@ -17,7 +17,6 @@ Coded by www.creative-tim.com
 import PropTypes from "prop-types";
 
 // @mui material components
-import Icon from "@mui/material/Icon";
 
 // Material Dashboard 2 React components
 import MDBox from "components/MDBox";
@@ -29,7 +28,7 @@ import { useTimeline } from "examples/Timeline/context";
 // Custom styles for the TimelineItem
 import timelineItem from "examples/Timeline/TimelineItem/styles";
 
-function TimelineItem({ color, icon, title, dateTime, description, lastItem }) {
+function TimelineItem({ color, title, dateTime, description, lastItem }) {
   const isDark = useTimeline();
 
   return (
@@ -48,9 +47,7 @@ function TimelineItem({ color, icon, title, dateTime, description, lastItem }) {
         left="2px"
         zIndex={2}
         sx={{ fontSize: ({ typography: { size } }) => size.sm }}
-      >
-        <Icon fontSize="inherit">{icon}</Icon>
-      </MDBox>
+      />
       <MDBox ml={5.75} pt={description ? 0.7 : 0.5} lineHeight={0} maxWidth="30rem">
         <MDTypography variant="button" fontWeight="medium" color={isDark ? "white" : "dark"}>
           {title}
@@ -91,7 +88,6 @@ TimelineItem.propTypes = {
     "dark",
     "light",
   ]),
-  icon: PropTypes.node.isRequired,
   title: PropTypes.string.isRequired,
   dateTime: PropTypes.string.isRequired,
   description: PropTypes.string,
