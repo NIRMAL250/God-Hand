@@ -22,9 +22,6 @@
 
 
   <h3 align="center">God's Hand</h3>
-
-  <p align="center">
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
    
 </div>
 
@@ -113,7 +110,7 @@ So how does it receive funds internationally? The answer is using circle API. Pe
 
 E-mail -  nirmal.p.jee@gmail.com
 
-Project Link: [https://github.com/NIRMAL250/God-Hand/new/main](https://github.com/NIRMAL250/God-Hand/new/main)
+Project Link: [https://github.com/NIRMAL250/God-Hand](https://github.com/NIRMAL250/God-Hand)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
