@@ -32,33 +32,17 @@ function OrdersOverview() {
         <MDBox mt={0} mb={2} />
       </MDBox>
       <MDBox p={2}>
-        <TimelineItem
-          color="success"
-          icon="notifications"
-          title="$2400, John Michael"
-          dateTime="22 DEC 7:20 PM"
-        />
-        <TimelineItem
-          color="error"
-          icon="inventory_2"
-          title="₹10,00,000, Rahul K"
-          dateTime="22 DEC 11 AM"
-        />
+        <TimelineItem color="success" title="$2400, John Michael" dateTime="22 DEC 7:20 PM" />
+        <TimelineItem color="error" title="₹10,00,000, Rahul K" dateTime="22 DEC 11 AM" />
         <TimelineItem
           color="info"
           icon="shopping_cart"
           title="€9000, Bardrich"
           dateTime="22 DEC 9:34 AM"
         />
-        <TimelineItem
-          color="warning"
-          icon="payment"
-          title="$5000, Liam"
-          dateTime="22 DEC 5:20 AM"
-        />
+        <TimelineItem color="warning" title="$5000, Liam" dateTime="22 DEC 5:20 AM" />
         <TimelineItem
           color="primary"
-          icon="vpn_key"
           title="د.إ100000, Maryam"
           dateTime="22 DEC 4:54 AM"
           lastItem
